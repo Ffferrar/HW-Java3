@@ -8,12 +8,12 @@ public class symmetricDifference  {
         Set setB = new HashSet();
         Set set = new HashSet();
 
-        setA.add("element");
-        setA.add("rock");
-        setA.add("paper");
+        setA.add(1);
+        setA.add(2);
+        setA.add(3);
 
-        setB.add("Scissors");
-        setB.add("rock");
+        setB.add(3);
+        setB.add(4);
 
         set = symmetricDifference(setA, setB);
         Iterator iterator = set.iterator();
