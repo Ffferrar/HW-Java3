@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
-
+// for pull request
 public class ArrayList implements SimpleList {
     public int array[];
     public int current_size = 0;
